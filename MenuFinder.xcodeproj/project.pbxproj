@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A17EAEC1A4CE87F00DBC14B /* MyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A17EAEB1A4CE87F00DBC14B /* MyPlugin.m */; };
+		2A17EAEE1A4CEB6B00DBC14B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A17EAED1A4CEB6B00DBC14B /* AppKit.framework */; };
+		2AB986F91A4D263800326D74 /* PopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB986F81A4D263800326D74 /* PopupWindow.m */; };
+		2ACD18191A4D16B1000317BB /* HighlightingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD180F1A4D16B1000317BB /* HighlightingView.m */; };
+		2ACD181A1A4D16B1000317BB /* RoundedCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD18111A4D16B1000317BB /* RoundedCornersView.m */; };
+		2ACD181B1A4D16B1000317BB /* SuggestibleTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD18131A4D16B1000317BB /* SuggestibleTextFieldCell.m */; };
+		2ACD181C1A4D16B1000317BB /* suggestionprototype.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD18141A4D16B1000317BB /* suggestionprototype.xib */; };
+		2ACD181D1A4D16B1000317BB /* SuggestionsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD18161A4D16B1000317BB /* SuggestionsWindow.m */; };
+		2ACD181E1A4D16B1000317BB /* SuggestionsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD18181A4D16B1000317BB /* SuggestionsWindowController.m */; };
+		2AF06B121A4E563F009170D6 /* HighlightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF06B111A4E563F009170D6 /* HighlightingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A17EAE01A4CE84E00DBC14B /* MenuFinder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuFinder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A17EAE41A4CE84E00DBC14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A17EAEA1A4CE87F00DBC14B /* MyPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlugin.h; sourceTree = "<group>"; };
+		2A17EAEB1A4CE87F00DBC14B /* MyPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlugin.m; sourceTree = "<group>"; };
+		2A17EAED1A4CEB6B00DBC14B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2AB986F71A4D263800326D74 /* PopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupWindow.h; sourceTree = "<group>"; };
+		2AB986F81A4D263800326D74 /* PopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupWindow.m; sourceTree = "<group>"; };
+		2ACD180E1A4D16B1000317BB /* HighlightingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightingView.h; sourceTree = "<group>"; };
+		2ACD180F1A4D16B1000317BB /* HighlightingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightingView.m; sourceTree = "<group>"; };
+		2ACD18101A4D16B1000317BB /* RoundedCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornersView.h; sourceTree = "<group>"; };
+		2ACD18111A4D16B1000317BB /* RoundedCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornersView.m; sourceTree = "<group>"; };
+		2ACD18121A4D16B1000317BB /* SuggestibleTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestibleTextFieldCell.h; sourceTree = "<group>"; };
+		2ACD18131A4D16B1000317BB /* SuggestibleTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestibleTextFieldCell.m; sourceTree = "<group>"; };
+		2ACD18141A4D16B1000317BB /* suggestionprototype.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = suggestionprototype.xib; sourceTree = "<group>"; };
+		2ACD18151A4D16B1000317BB /* SuggestionsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionsWindow.h; sourceTree = "<group>"; };
+		2ACD18161A4D16B1000317BB /* SuggestionsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionsWindow.m; sourceTree = "<group>"; };
+		2ACD18171A4D16B1000317BB /* SuggestionsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionsWindowController.h; sourceTree = "<group>"; };
+		2ACD18181A4D16B1000317BB /* SuggestionsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionsWindowController.m; sourceTree = "<group>"; };
+		2AF06B101A4E563F009170D6 /* HighlightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightingViewController.h; sourceTree = "<group>"; };
+		2AF06B111A4E563F009170D6 /* HighlightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A17EADD1A4CE84E00DBC14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A17EAEE1A4CEB6B00DBC14B /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A17EAD71A4CE84E00DBC14B = {
+			isa = PBXGroup;
+			children = (
+				2A17EAED1A4CEB6B00DBC14B /* AppKit.framework */,
+				2A17EAE21A4CE84E00DBC14B /* MenuFinder */,
+				2A17EAE11A4CE84E00DBC14B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A17EAE11A4CE84E00DBC14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A17EAE01A4CE84E00DBC14B /* MenuFinder.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A17EAE21A4CE84E00DBC14B /* MenuFinder */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD180D1A4D16B1000317BB /* APPLPopup */,
+				2A17EAE31A4CE84E00DBC14B /* Supporting Files */,
+				2A17EAEA1A4CE87F00DBC14B /* MyPlugin.h */,
+				2A17EAEB1A4CE87F00DBC14B /* MyPlugin.m */,
+				2AB986F71A4D263800326D74 /* PopupWindow.h */,
+				2AB986F81A4D263800326D74 /* PopupWindow.m */,
+			);
+			path = MenuFinder;
+			sourceTree = "<group>";
+		};
+		2A17EAE31A4CE84E00DBC14B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A17EAE41A4CE84E00DBC14B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ACD180D1A4D16B1000317BB /* APPLPopup */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD180E1A4D16B1000317BB /* HighlightingView.h */,
+				2ACD180F1A4D16B1000317BB /* HighlightingView.m */,
+				2ACD18101A4D16B1000317BB /* RoundedCornersView.h */,
+				2ACD18111A4D16B1000317BB /* RoundedCornersView.m */,
+				2ACD18121A4D16B1000317BB /* SuggestibleTextFieldCell.h */,
+				2ACD18131A4D16B1000317BB /* SuggestibleTextFieldCell.m */,
+				2ACD18141A4D16B1000317BB /* suggestionprototype.xib */,
+				2ACD18151A4D16B1000317BB /* SuggestionsWindow.h */,
+				2ACD18161A4D16B1000317BB /* SuggestionsWindow.m */,
+				2ACD18171A4D16B1000317BB /* SuggestionsWindowController.h */,
+				2ACD18181A4D16B1000317BB /* SuggestionsWindowController.m */,
+				2AF06B101A4E563F009170D6 /* HighlightingViewController.h */,
+				2AF06B111A4E563F009170D6 /* HighlightingViewController.m */,
+			);
+			path = APPLPopup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A17EADF1A4CE84E00DBC14B /* MenuFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A17EAE71A4CE84E00DBC14B /* Build configuration list for PBXNativeTarget "MenuFinder" */;
+			buildPhases = (
+				2A17EADC1A4CE84E00DBC14B /* Sources */,
+				2A17EADD1A4CE84E00DBC14B /* Frameworks */,
+				2A17EADE1A4CE84E00DBC14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuFinder;
+			productName = Sample;
+			productReference = 2A17EAE01A4CE84E00DBC14B /* MenuFinder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A17EAD81A4CE84E00DBC14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					2A17EADF1A4CE84E00DBC14B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A17EADB1A4CE84E00DBC14B /* Build configuration list for PBXProject "MenuFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A17EAD71A4CE84E00DBC14B;
+			productRefGroup = 2A17EAE11A4CE84E00DBC14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A17EADF1A4CE84E00DBC14B /* MenuFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A17EADE1A4CE84E00DBC14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACD181C1A4D16B1000317BB /* suggestionprototype.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A17EADC1A4CE84E00DBC14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACD181B1A4D16B1000317BB /* SuggestibleTextFieldCell.m in Sources */,
+				2ACD18191A4D16B1000317BB /* HighlightingView.m in Sources */,
+				2AB986F91A4D263800326D74 /* PopupWindow.m in Sources */,
+				2ACD181A1A4D16B1000317BB /* RoundedCornersView.m in Sources */,
+				2AF06B121A4E563F009170D6 /* HighlightingViewController.m in Sources */,
+				2ACD181E1A4D16B1000317BB /* SuggestionsWindowController.m in Sources */,
+				2ACD181D1A4D16B1000317BB /* SuggestionsWindow.m in Sources */,
+				2A17EAEC1A4CE87F00DBC14B /* MyPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A17EAE51A4CE84E00DBC14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A17EAE61A4CE84E00DBC14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A17EAE81A4CE84E00DBC14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenuFinder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MenuFinder;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2A17EAE91A4CE84E00DBC14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenuFinder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MenuFinder;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A17EADB1A4CE84E00DBC14B /* Build configuration list for PBXProject "MenuFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A17EAE51A4CE84E00DBC14B /* Debug */,
+				2A17EAE61A4CE84E00DBC14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A17EAE71A4CE84E00DBC14B /* Build configuration list for PBXNativeTarget "MenuFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A17EAE81A4CE84E00DBC14B /* Debug */,
+				2A17EAE91A4CE84E00DBC14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A17EAD81A4CE84E00DBC14B /* Project object */;
+}
