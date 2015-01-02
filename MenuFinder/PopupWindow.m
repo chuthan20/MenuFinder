@@ -410,4 +410,8 @@
     return YES;
 }
 
+- (void)resignKeyWindow
+{
+    [self close];
+}
 @end
